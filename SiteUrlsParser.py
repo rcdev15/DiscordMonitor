@@ -186,7 +186,7 @@ if(__name__ == "__main__"):
     ]
 
     # Load sites from file
-    sites = readTXT("other-sites.txt")
+    sites = readTXT("Sites.txt")
 
     # Start monitoring sites
     while(True):
