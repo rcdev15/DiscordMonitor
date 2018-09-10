@@ -1,7 +1,4 @@
 
-import requests
-from bs4 import BeautifulSoup as soup
-import requests
 from log import log as log
 import time
 from datetime import datetime
@@ -10,6 +7,9 @@ from bs4 import BeautifulSoup as soup
 from DiscordWebhooks import Webhook
 from threading import Thread
 import psycopg2
+import requests
+from bs4 import BeautifulSoup as soup
+import requests
 
 
 class Product():
