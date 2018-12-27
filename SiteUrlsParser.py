@@ -26,8 +26,6 @@ class Product():
 def readTXT(path):
     '''
     (None) -> list of str
-    Loads up all sites from the sitelist.txt file in the root directory.
-    Returns the sites as a list
     '''
 
     siteInfo = []
@@ -172,14 +170,10 @@ def monitor(link, keywords):
                     send_embed(product)
 
 if(__name__ == "__main__"):
-    # Keywords (seperated by -)
+    # Keywords (use '-' for spaces)
     keywords = [
         "pharrell",
         "yeezy",
-        "ovo-air-jordan",
-        "ovo-jordan",
-        "NMD",
-        "presto",
     ]
 
     # Load sites from file
