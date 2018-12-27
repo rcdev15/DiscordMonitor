@@ -48,7 +48,6 @@ def readTXT(path):
     for line in siteInfo:
         lines.append(line.strip("\n"))
 
-    # Return the data
     return lines
 
 
