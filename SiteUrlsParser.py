@@ -17,7 +17,6 @@ class Product():
         '''
         Takes |str, str, bool, str| for object constructor
         '''
-        # Setup product object
         self.title = title
         self.stock = stock
         self.link = link
@@ -31,7 +30,6 @@ def readTXT(path):
     Returns the sites as a list
     '''
 
-    # Initialize variables
     siteInfo = []
     lines = []
     # Load data and raise error if no file
