@@ -189,6 +189,7 @@ if(__name__ == "__main__"):
     while(True):
         threads = []
         for site in sites:
+            # Python Threading info -> https://pymotw.com/2/threading/
             timeToStart = Thread(target=monitor, args=(site, keywords))
             threads.append(t)
             timeToStart.start()
