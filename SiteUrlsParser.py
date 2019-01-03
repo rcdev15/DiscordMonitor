@@ -1,5 +1,5 @@
 
-from log import log as log
+from log import log
 import time
 from datetime import datetime
 import random
@@ -7,8 +7,6 @@ from bs4 import BeautifulSoup as soup
 from DiscordWebhooks import Webhook
 from threading import Thread
 import psycopg2
-import requests
-from bs4 import BeautifulSoup as soup
 import requests
 
 
